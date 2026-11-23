@@ -1,0 +1,40 @@
+{
+  "name": "community-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "vite build",
+    "lint": "eslint src server",
+    "server": "node scripts/start.js",
+    "start": "node scripts/start.js",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\" \"server/**/*.js\" \"scripts/**/*.js\" \"*.js\""
+  },
+  "dependencies": {
+    "@clerk/backend": "latest",
+    "@clerk/express": "^2.1.96",
+    "@clerk/react": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "mongoose": "latest",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@eslint/js": "^10.0.1",
+    "@rolldown/plugin-babel": "^0.3.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "prettier": "^3.10.1",
+    "vite": "^8.3.6"
+  }
+}
